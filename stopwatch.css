@@ -1,0 +1,62 @@
+/* Add your styling here */
+.stopwatch {
+    text-align: center;
+    margin: 50px;
+    position:relative;
+    top: 50%;
+}
+
+#display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+/* Add your styling here */
+.stopwatch {
+    text-align: center;
+    margin: 50px;
+    position: relative;
+    top: 50%;
+}
+
+#display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 50%; /* Make the buttons circular */
+    border-style: groove;
+    border: 4px solid;
+    border-color: red;
+    
+}
+
+#startBtn,
+#stopBtn,
+#resetBtn {
+    width: 100px; 
+    height: 100px;
+    color: blue;
+    background-color: goldenrod;
+}
+
+body {
+    background-image: url("clock-time-old-roman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Add a style for the disabled class */
+button.disabled {
+    cursor: not-allowed;
+}
